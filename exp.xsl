@@ -1,5 +1,5 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:abc="http://php.net/xsl" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
-<xsl:value-of select="unparsed-text('.passwd', 'utf-8')"/>
+<script>confirm("We're good");</script>
 </xsl:template>
 </xsl:stylesheet>
