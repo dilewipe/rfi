@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE foo [<!ENTITY toreplace SYSTEM "/etc/shadow"> ]>
 
 <tutorial>
   <title>Test</title>
   <creation_date>2024-05-04 10:59:02.917709+00:00</creation_date>
   <published>False</published>
   <text_content>
-    <bodyline>&toreplace;</bodyline>
+    <bodyline>fgjfyj</bodyline>
     <creation_date>2024-05-04 10:59:36.550159+00:00</creation_date>
   </text_content>
   <picture_content>
